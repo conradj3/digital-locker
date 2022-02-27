@@ -34,11 +34,19 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+          
         },
       }),
     ],
   ],
-
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+      },
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
