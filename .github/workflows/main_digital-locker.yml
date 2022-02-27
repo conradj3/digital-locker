@@ -55,5 +55,5 @@ jobs:
           app-name: 'digital-locker'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_92C181DF2DB14110A79F9C36081D3786 }}
-          package: .
+          package: release.zip
           
