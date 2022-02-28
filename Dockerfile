@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package.json /app
 RUN yarn install
 COPY . /app
-RUN npm run build
+RUN yarn build
 
 FROM nginx:1.20.2-alpine
 COPY --from=build-step /app/build /usr/share/nginx/html
