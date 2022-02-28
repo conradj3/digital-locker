@@ -8,12 +8,12 @@ test:
 
 # Add 'source' label to any change to src files within the source dir EXCEPT for the docs sub-folder
 source:
-- src/**/*
+- src/*
 
 # Add 'blog` label to any change to *.js files as long as the `main.js` hasn't changed
 blog:
-- blog/**/*
+- blog/*
 
 # Add 'docs` label to any change to *.js files as long as the `main.js` hasn't changed
 docs:
-- docs/**/*
+- docs/*
