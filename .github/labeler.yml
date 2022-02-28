@@ -12,7 +12,7 @@ source:
 
 # Add 'blog` label to any change to *.js files as long as the `main.js` hasn't changed
 blog:
-- any: ['blog/**'/*']
+- any: ['blog/**/*']
 
 # Add 'docs` label to any change to *.js files as long as the `main.js` hasn't changed
 docs:
