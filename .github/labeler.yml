@@ -2,18 +2,15 @@
 repo:
 - '*'
 
-# Add 'test' label to any change to *.spec.js files within the source dir
-test:
-- src/**/*.spec.js
 
 # Add 'source' label to any change to src files within the source dir EXCEPT for the docs sub-folder
 source:
-- src/*
+- 'src/*'
 
 # Add 'blog` label to any change to *.js files as long as the `main.js` hasn't changed
 blog:
-- blog/*
+- 'blog/*'
 
 # Add 'docs` label to any change to *.js files as long as the `main.js` hasn't changed
 docs:
-- docs/*
+- 'docs/*'
