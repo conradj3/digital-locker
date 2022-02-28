@@ -46,6 +46,9 @@ const config = {
         hashed: true,
       },
     ],
+    [
+    require.resolve("@docusaurus/theme-live-codeblock"),
+    ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
