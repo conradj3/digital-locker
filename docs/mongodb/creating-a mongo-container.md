@@ -52,6 +52,7 @@ Dont try and mount to a windows file system. A docker volume is required on Wind
 
 The following is a good folder structure for working with MongoDb containers.
 
+<pre>
 ├── 📝.gitignore
 ├── 📝docker-compose.yaml
 ├── 📁mongodb
@@ -61,6 +62,7 @@ The following is a good folder structure for working with MongoDb containers.
 │   ├── 📝.mongodb_username
 │   ├── 📝Dockerfile
 │   ├── 📝mongo-init.sh
+</pre>
 
 :::note
 The . files in the `mongodb` directory should contain your run time secrets which will be mounted as volumes at `/run/secrets/<secretname>` inside the container.
