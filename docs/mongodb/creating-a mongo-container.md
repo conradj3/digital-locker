@@ -101,7 +101,6 @@ db.auth(MONGO_INITDB_ROOT_USERNAME, MONGO_INITDB_ROOT_PASSWORD);
 var db = db.getSiblingDB(MONGO_DATABASE)
 db.createUser({user: MONGO_USERNAME, pwd: MONGO_PASSWORD, roles: [{role: 'readWrite', db: MONGO_DATABASE}]});
 EOF
-
 ```
 
 ### Understanding the init override.
@@ -130,5 +129,7 @@ If your connecting via Windows Host, you'll want to use
 
 
 ## Downloads
-[MongoCompass Community](https://www.mongodb.com/products/compass)\
+
+[MongoCompass Community](https://www.mongodb.com/products/compass)
+
 [Studio 3T](https://studio3t.com/?keyword=%2Bmongo%20%2Bdb%20%2Btools&msclkid=401fca2b8e141188f510a869265fab2c&utm_source=bing&utm_medium=cpc&utm_campaign=GS%20%7C%20Generic%20%7C%20US&utm_term=%2Bmongo%20%2Bdb%20%2Btools&utm_content=MongoDB%20Tools%20%28broad%29)
