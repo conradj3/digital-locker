@@ -120,16 +120,18 @@ ADD ./mongo-init.sh /docker-entrypoint-initdb.d/
 
 The following will be the url to connect to Mongodb container.
 
-***mongodb://<username>:<password>@mongodb:27017/mydb***
+```shell
+mongodb://<username>:<password>@mongodb:27017/mydb
+```
 
-:::info
 If your connecting via Windows Host, you'll want to use
-***mongodb://<username>:<password>@host.docker.internal:27017/mydb***
-:::
 
+```shell
+mongodb://<username>:<password>@host.docker.internal:27017/mydb
+```
 
 ## Downloads
 
 [MongoCompass Community](https://www.mongodb.com/products/compass)
 
-[Studio 3T](https://studio3t.com/?keyword=%2Bmongo%20%2Bdb%20%2Btools&msclkid=401fca2b8e141188f510a869265fab2c&utm_source=bing&utm_medium=cpc&utm_campaign=GS%20%7C%20Generic%20%7C%20US&utm_term=%2Bmongo%20%2Bdb%20%2Btools&utm_content=MongoDB%20Tools%20%28broad%29)
+[Studio 3T](https://studio3t.com/download/)
