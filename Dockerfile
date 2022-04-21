@@ -1,4 +1,4 @@
-FROM node:17-alpine3.15 as build-step
+FROM node:18-alpine3.15 as build-step
 WORKDIR /app
 COPY package.json /app
 RUN yarn install
