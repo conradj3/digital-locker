@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'conradj3', // Usually your GitHub org/user name.
   projectName: 'digital-locker', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
   trailingSlash:false,
 
   presets: [
@@ -25,7 +26,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/conradj3/digital-locker/tree/main/docs',
+          editUrl: 'https://github.com/conradj3/digital-locker/tree/main/',
         },
         blog: {
           showReadingTime: true,
