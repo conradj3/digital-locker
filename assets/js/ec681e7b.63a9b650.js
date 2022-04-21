@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdigital_locker=self.webpackChunkdigital_locker||[]).push([[440],{7768:function(a){a.exports=JSON.parse('{"allTagsPath":"/digital-locker/blog/tags","slug":"/digital-locker/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/digital-locker/blog/tags/docusaurus"}')}}]);

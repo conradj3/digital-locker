@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdigital_locker=self.webpackChunkdigital_locker||[]).push([[545],{6646:function(e){e.exports=JSON.parse('{"permalink":"/digital-locker/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
