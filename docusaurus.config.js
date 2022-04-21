@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Nov4 ',
   tagline: 'Fueled by ☕️ and 🎶.',
-  url: 'https://conradj3.github.io/digital-locker/',
+  url: 'https://conradj3.github.io/',
   baseUrl: '/digital-locker/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
