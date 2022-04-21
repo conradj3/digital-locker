@@ -73,6 +73,7 @@ const config = {
           },
         ],
       },
+      metadata: [{name: 'keywords', content: 'devops, blog, azure, azuredevops, github'}],
       footer: {
         style: 'dark',
         links: [
