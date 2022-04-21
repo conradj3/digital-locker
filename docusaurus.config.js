@@ -9,7 +9,7 @@ const config = {
   title: 'Nov4 ',
   tagline: 'Fueled by ☕️ and 🎶.',
   url: 'https://conradj3.github.io/digital-locker/',
-  baseUrl: '/',
+  baseUrl: '/digital-locker/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
