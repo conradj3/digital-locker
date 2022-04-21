@@ -8,13 +8,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Nov4 ',
   tagline: 'Fueled by ☕️ and 🎶.',
-  url: 'https://digital-locker.azurewebsites.com',
+  url: 'https://conradj3.github.io/digital-locker/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'conradj3', // Usually your GitHub org/user name.
   projectName: 'digital-locker', // Usually your repo name.
+  trailingSlash:false,
 
   presets: [
     [
