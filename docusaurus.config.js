@@ -56,7 +56,7 @@ const config = {
         title: '',
         logo: {
           alt: 'Nov4 Logo',
-          src: 'img/logo.svg',
+          src: 'static/img/logo.svg',
         },
         items: [
           {
