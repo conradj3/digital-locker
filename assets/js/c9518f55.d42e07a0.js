@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdigital_locker=self.webpackChunkdigital_locker||[]).push([[550],{2181:function(l){l.exports=JSON.parse('{"permalink":"/digital-locker/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
