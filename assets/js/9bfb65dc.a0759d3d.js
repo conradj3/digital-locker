@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdigital_locker=self.webpackChunkdigital_locker||[]).push([[182],{2487:function(l){l.exports=JSON.parse('{"hello":{"allTagsPath":"/digital-locker/blog/tags","name":"hello","count":1,"permalink":"/digital-locker/blog/tags/hello"}}')}}]);

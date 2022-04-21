@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://conradj3.github.io/digital-locker/digital-locker/blog</id>
+    <id>https://conradj3.github.io/digital-locker/blog</id>
     <title>Nov4  Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2022-04-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://conradj3.github.io/digital-locker/digital-locker/blog"/>
+    <link rel="alternate" href="https://conradj3.github.io/digital-locker/blog"/>
     <subtitle>Nov4  Blog</subtitle>
-    <icon>https://conradj3.github.io/digital-locker/digital-locker/img/favicon.ico</icon>
+    <icon>https://conradj3.github.io/digital-locker/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
-        <link href="https://conradj3.github.io/digital-locker/digital-locker/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
+        <link href="https://conradj3.github.io/digital-locker/blog/welcome"/>
+        <updated>2022-04-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hello All,]]></summary>
         <content type="html"><![CDATA[<p>Hello All,</p><p>Welcome to my blog.  I attend to use this blog for daily problems we face with modern day infrastructure and applications.  I hope you enjoy the post and happy reading!</p>]]></content>
         <author>
