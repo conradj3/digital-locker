@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Nov4 ',
   tagline: 'Fueled by ☕️ and 🎶.',
-  url: 'https://conradj3.github.io/',
+  url: 'https://conradj3.github.io',
   baseUrl: '/digital-locker/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -56,7 +56,7 @@ const config = {
         title: '',
         logo: {
           alt: 'Nov4 Logo',
-          src: 'static/img/logo.svg',
+          src: 'img/logo.svg',
         },
         items: [
           {
