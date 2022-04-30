@@ -18,6 +18,8 @@ So we had intermittent service of our primary graph service, and we made a call 
 
 After catching about 4 hours of sleep, because my brain was racking on what could be causing this problem after we all retired for the night, I woke up to take my kids to school. Our team was all present in a call at 8:00 AM on the dot. We learned we had missed a step within the hour while creating the `Service Principal`. It lacked the `network contributor` role to update the Kubernetes Route Tables, which was the root cause of Kubernetes pods were trying to route outside the cluster. After adding `network contributor` all our pods came back to life, and service was restored.
 
+<!--truncate-->
+
 ## Conclusion
 
 After describing our mistakes one could reference [Azure - Kubernetes Service Principals](https://docs.microsoft.com/en-us/azure/aks/kubernetes-service-principal?tabs=azure-cli)
