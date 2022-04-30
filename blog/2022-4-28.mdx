@@ -6,7 +6,7 @@ tags: [Azure, Kubernetes, Graph, Identity]
 hide_table_of_contents: false
 ---
 
-# In short Duke, a shit storm.
+## In short Duke, a shit storm.
 
 Thursday morning started just great. We had a deployment into a production Kubernetes cluster failing to pull container images from our Azure Container Registry. The `Azure Service Principal` account secret used by the `Kubernetes` cluster had expired and needed to be renewed.
 
@@ -20,19 +20,23 @@ After catching about 4 hours of sleep, because my brain was racking on what coul
 
 ## Conclusion
 
-After describing our mistakes one could reference [Azure - Kubernetes Service Principals ](https://docs.microsoft.com/en-us/azure/aks/kubernetes-service-principal?tabs=azure-cli)
+After describing our mistakes one could reference [Azure - Kubernetes Service Principals](https://docs.microsoft.com/en-us/azure/aks/kubernetes-service-principal?tabs=azure-cli)
 
-We things went south for us is when we missed the scope in assignment
+:::caution
+This is were things went south.
+:::
+
+When running the follow command after service principal creation;
 
 ```bash
 az role assignment create --assignee <appId> --scope <resourceScope> --role Contributor
 ```
 
-:::tip
-/subscriptions/<guid>/resourceGroups/myResourceGroup 
-/subscriptions/<guid>/resourceGroups/myResourceGroupVnet/providers/Microsoft.Network/virtualNetworks/myVnet
-:::
+We required both of the scopes receive contributor assignment:
 
-The official wording says or but it was an and in our environment. Simple, but caused a hell of a headache and crunch session in the moment to try and bring the production services back to a fully restored state. 
+- /subscriptions/***guid***/resourceGroups/myResourceGroup 
+- /subscriptions/***guid***/resourceGroups/myResourceGroupVnet/providers/Microsoft.Network/virtualNetworks/myVnet
+
+The official wording says "or" but it was an "and" in our environment. Simple, but caused a hell of a headache and crunch session in the moment to try and bring the production services back to a fully restored state. 
 
 We attempted to resolve this on our own but several of the credentials and individual rbac prevent a lot of engineers from fixing this due to the ownership of the Service Principal / Subscription roles preventing individuals from adding roles to identity.  We were much relieved when services were restored hope this read might help someone who might encounter this.
