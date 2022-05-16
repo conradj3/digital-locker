@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdigital_locker=self.webpackChunkdigital_locker||[]).push([[7786],{6292:function(e){e.exports=JSON.parse('{"permalink":"/digital-locker/blog/tags/git-hub","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

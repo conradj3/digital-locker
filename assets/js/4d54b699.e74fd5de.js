@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdigital_locker=self.webpackChunkdigital_locker||[]).push([[7860],{3766:function(l){l.exports=JSON.parse('{"label":"Unplanned work","permalink":"/digital-locker/blog/tags/unplanned-work","allTagsPath":"/digital-locker/blog/tags","count":1}')}}]);

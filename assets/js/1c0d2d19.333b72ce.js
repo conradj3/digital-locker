@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdigital_locker=self.webpackChunkdigital_locker||[]).push([[1870],{4832:function(l){l.exports=JSON.parse('{"label":"Agile","permalink":"/digital-locker/blog/tags/agile","allTagsPath":"/digital-locker/blog/tags","count":1}')}}]);

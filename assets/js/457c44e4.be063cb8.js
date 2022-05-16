@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdigital_locker=self.webpackChunkdigital_locker||[]).push([[603],{7989:function(a){a.exports=JSON.parse('{"label":"Kanban","permalink":"/digital-locker/blog/tags/kanban","allTagsPath":"/digital-locker/blog/tags","count":1}')}}]);

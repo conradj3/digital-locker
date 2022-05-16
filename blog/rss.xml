@@ -4,10 +4,24 @@
         <title>Nov4  Blog</title>
         <link>https://conradj3.github.io/digital-locker/blog</link>
         <description>Nov4  Blog</description>
-        <lastBuildDate>Thu, 28 Apr 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 May 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The Silent IT killer]]></title>
+            <link>https://conradj3.github.io/digital-locker/blog/unplanned-work</link>
+            <guid>unplanned-work</guid>
+            <pubDate>Mon, 16 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Handling unplanned work]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="handling-unplanned-work">Handling unplanned work<a class="hash-link" href="#handling-unplanned-work" title="Direct link to heading">​</a></h2><p>Recently, we have been going through a transformation at work. For a much awaited period our infrastructure teams are moving towards Agile. Its a challenge for any organization operating like they from the dotcom era.  However, the change is exciting.  We have seen roles such as Product Owner, Service Owner, and Chapter Leads being expanded throughout the organization.</p><p>One of the biggest items, for both Product/Service areas is the fact that they have constraints or favorites that they cannot seem to elevate.  Work continues to come in sideways, and our developers/engineers are always pulled off initiative work.  Go figure.  Its been challenging for many to adapt to Agile, so I took time to write a little piece on how to handle <code>unplanned work</code>. I found it best to utilize labels, and prioritize the work that came from outside my work funnel when I was a Product Owner.  This might not work for you.  Take a read over on my doc site, if you have comments or wish to add more details submit a pull request!</p><p><a href="https://conradj3.github.io/digital-locker/docs/agile/address-unplanned-work" target="_blank" rel="noopener noreferrer">What is unplanned work</a></p>]]></content:encoded>
+            <category>Unplanned work</category>
+            <category>GitHub</category>
+            <category>AzureDevops</category>
+            <category>Agile</category>
+            <category>Scrum</category>
+            <category>Kanban</category>
+        </item>
         <item>
             <title><![CDATA[Production Down]]></title>
             <link>https://conradj3.github.io/digital-locker/blog/AKS</link>

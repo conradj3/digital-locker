@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdigital_locker=self.webpackChunkdigital_locker||[]).push([[6346],{6439:function(l){l.exports=JSON.parse('{"label":"Scrum","permalink":"/digital-locker/blog/tags/scrum","allTagsPath":"/digital-locker/blog/tags","count":1}')}}]);

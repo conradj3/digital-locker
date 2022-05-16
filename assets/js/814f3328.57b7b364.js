@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdigital_locker=self.webpackChunkdigital_locker||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Production Down","permalink":"/digital-locker/blog/AKS"},{"title":"Welcome","permalink":"/digital-locker/blog/welcome"}]}')}}]);

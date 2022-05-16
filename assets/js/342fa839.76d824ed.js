@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdigital_locker=self.webpackChunkdigital_locker||[]).push([[8899],{665:function(e){e.exports=JSON.parse('{"label":"AzureDevops","permalink":"/digital-locker/blog/tags/azure-devops","allTagsPath":"/digital-locker/blog/tags","count":1}')}}]);

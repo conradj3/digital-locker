@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdigital_locker=self.webpackChunkdigital_locker||[]).push([[599],{1950:function(e){e.exports=JSON.parse('{"label":"Kubernetes","permalink":"/digital-locker/blog/tags/kubernetes","allTagsPath":"/digital-locker/blog/tags","count":1}')}}]);
