@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+authors: [conrad]
 ---
 
 # Types of work
@@ -8,7 +9,7 @@ sidebar_position: 1
 
 You know, those projects that the business is screaming for, those projects that have a direct link to business processes and tie to the outcomes of the business groups. In essence this is all the business is really asking IT for.
 
-## Internal Projects 
+## Internal Projects
 
 Installing a fleet of new network devices, decommissioning a data centre, and any number of other internally focused system based activities. The problem with many of these projects is that all too often internal teams are left to manage them independently. They progress with little oversight or visibility and consume untold amounts of resource, which will often adversely affect progress on Business Projects. We have the PMO managing Business Projects, but who manages internal Projects?
 
