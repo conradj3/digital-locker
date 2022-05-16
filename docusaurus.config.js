@@ -16,7 +16,7 @@ const config = {
   organizationName: 'conradj3', // Usually your GitHub org/user name.
   projectName: 'digital-locker', // Usually your repo name.
   deploymentBranch: 'gh-pages',
-  trailingSlash:false,
+  trailingSlash: false,
 
   presets: [
     [
@@ -37,6 +37,10 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
 
+        },
+        googleAnalytics: {
+          trackingID: 'UA-164522290-1',
+          anonymizeIP: true,
         },
       }),
     ],
@@ -73,7 +77,7 @@ const config = {
           },
         ],
       },
-      metadata: [{name: 'keywords', content: 'devops, blog, azure, azuredevops, github'}],
+      metadata: [{ name: 'keywords', content: 'devops, blog, azure, azuredevops, github' }],
       footer: {
         style: 'dark',
         links: [
