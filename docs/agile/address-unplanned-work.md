@@ -1,8 +1,9 @@
 ---
 sidebar_position: 2
 authors: [conrad]
+title: Addresing `unplanned` work
 ---
-# What is `unplanned` work?
+## What is `unplanned` work?
 
 Unplanned work is ***any activity in the IT organization that can't be mapped to an authorized project, procedure or change request***. Any service interruption, failed change, emergency change, or patch or security incident creates unplanned work.
 
