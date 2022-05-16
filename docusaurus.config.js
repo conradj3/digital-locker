@@ -38,8 +38,8 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
 
         },
-        googleAnalytics: {
-          trackingID: 'UA-164522290-1',
+        gtag: {
+          trackingID: 'G-NCHEPHJFW5',
           anonymizeIP: true,
         },
       }),
