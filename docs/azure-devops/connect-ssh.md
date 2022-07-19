@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-tags: ubuntu
+title: Ubuntu WSL - SSH Connect
 ---
 
-# Connect via ssh
+## Overview
 
 OpenSSH will report the error no matching host key type found. Their offer: ssh-rsa if the server it's connecting to is offering to authenticate over ssh-rsa ( RSA/SHA1). Azure Devops (TFS) is offering to authenticate over ssh-rsa. As noted in the answer by bk2204, this algorithm is not considered cryptographically secure.
 
